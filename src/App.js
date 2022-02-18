@@ -8,7 +8,7 @@ function App() {
     <ChatEngine
       height="100vh"
       projectID="30af4882-f6aa-4f4b-8aa5-22e51f797963"
-      userName='sisco'
+      userName='sansisco'
       userSecret='123'
       renderChatFeed={(chatAppProps)=>
         <CustomChatFeed {...chatAppProps} />
