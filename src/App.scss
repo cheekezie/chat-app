@@ -196,7 +196,8 @@
 .send-icon {
   top: 1px;
   position: relative;
-  transform: rotate(-90deg);
+  color: green;
+  transform: rotate(-45deg);
 }
 
 .picture-icon {
@@ -309,4 +310,16 @@
 .message-image {
   border-radius: 6px;
   max-width: 200px;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+.loading {
+  font-size: 18px;
+  font-style: italic;
+}
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
